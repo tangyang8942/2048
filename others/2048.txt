@@ -1,0 +1,58 @@
+﻿---------背景颜色-----------
+switch(num){
+	case 2:return "#eee4da";break;
+	case 4:return "#ede0c8";break;
+	case 8:return "#f2b179";break;
+	case 16:return "#f59563";break;
+	case 32:return "#f67c5f";break;
+	case 64:return "#f65e3b";break;
+	case 128:return "#edcf72";break;
+	case 256:return "#edcc61";break;
+	case 512:return "#9c0";break;
+	case 1024:return "#33b5e5";break;
+	case 2048:return "#09c";break;
+	case 4096:return "#a6c";break;
+	case 8192:return "#93c";break;
+}
+
+---------程序员版-----------
+function getNumberText(num){
+	switch(num){
+		case 2:return "小白"; break;
+		case 4:return "实习生"; break;
+		case 8:return "程序员"; break;
+		case 16:return "工程师"; break;	
+		case 32:return "主管"; break;	
+		case 64:return "经理"; break;
+		case 128:return "总监"; break;
+		case 256:return "总经理"; break;	
+		case 512:return "副总裁"; break;	
+		case 1024:return "CEO"; break;	
+		case 2048:return "总裁"; break	;
+		case 4096:return "董事长"; break	;
+		case 8192:return "乔布斯"; break	;
+	}
+    return "black";
+}
+
+------------------------------------
+function getNumberText(num){
+	switch(num){
+		case 2:return "文盲";break;
+		case 4:return "童生";break;
+		case 8:return "秀才";break;
+		case 16:return "举人";break;
+		case 32:return "进士";break;
+		case 64:return "翰林";break;
+		case 128:return "大学士";break;
+		case 256:return "大儒";break;
+		case 512:return "半圣";break;
+		case 1024:return "亚圣";break;
+		case 2048:return "圣人";break;
+	}
+}
+
+------------------------------------
+"菜鸟", "入门", "码畜", "码奴", "码农", "IT民工", "IT工程师", "IT人才", "IT精英", "IT大哥", "IT领袖"
+
+
